@@ -1,0 +1,55 @@
+.custom-background {
+  background-image: url("/images/group.jpg");
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.card1 {
+  background-image: url("/images/Park_Jongun.png");
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.card2 {
+    background-image: url("/images/Kim_Jungoo.png");
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.card3 {
+    background-image: url("/images/Lee_Jihoon.png");
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.card4 {
+    background-image: url("/images/Park_Huyungseok.png");
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.lead {
+    font-size: 30px;
+}
