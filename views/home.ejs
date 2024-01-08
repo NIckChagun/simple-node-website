@@ -5,16 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Lookism</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/stylesheet/style.css">
-    <link rel="icon" type="image/png" href="/images/logo.png">
+    <link rel="stylesheet" href="/stylesheet/style.css" />
+    <link rel="icon" type="image/png" href="/images/logo.png" />
   </head>
   <body>
-
     <nav
       class="navbar navbar-expand-md bg-dark sticky-top border-bottom"
       data-bs-theme="dark"
@@ -27,12 +26,12 @@
           SiKo Website
         </a>
         <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvas"
-            aria-controls="offcanvas"
-            aria-label="Toggle navigation"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvas"
+          aria-controls="offcanvas"
+          aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,7 +51,10 @@
             ></button>
           </div>
           <div class="offcanvas-body">
-             <ul class="navbar-nav flex-grow-1 justify-content-between text-center fs-3"> <!--Hamburger Menu -->
+            <ul
+              class="navbar-nav flex-grow-1 justify-content-between text-center fs-3"
+            >
+              <!--Hamburger Menu -->
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <svg class="bi" width="24" height="24">
@@ -60,20 +62,43 @@
                   </svg>
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about">Character</a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Character
+                </a>
+                <ul class="dropdown-menu character-dropdown" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Park Junggun</a></li>
+                  <li><a class="dropdown-item" href="#">Kim Joongoo</a></li>
+                  <li><a class="dropdown-item" href="#">Lee Jihun</a></li>
+                  <li><a class="dropdown-item" href="#">Park Huyungseok</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="/about">More Character</a>
+                  </li>
+                </ul>
               </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="#">Status</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/"><img src="/images/logo.png" alt=""></a>
+                <a class="nav-link" href="/"
+                  ><img src="/images/logo.png" alt=""
+                /></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Relationship</a>
+                <a class="nav-link" href="#">Gang</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a></li>
+                <a class="nav-link" href="#">Contact</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <svg class="bi" width="24" height="24">
@@ -88,11 +113,9 @@
     </nav>
 
     <main>
-
       <div
-        class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light custom-background" 
-        >
-
+        class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light custom-background"
+      >
         <div class="col-md-5 p-lg-5 mx-auto my-5">
           <!-- <h1 class="display-4 fw-normal">Punny headline</h1>
           <p class="lead fw-normal">
@@ -100,7 +123,7 @@
             efforts with this example based on Apple’s marketing pages.
           </p>
           <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
-          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
         <div class="product-device shadow-sm d-none d-md-block"></div>
         <div
@@ -110,7 +133,8 @@
 
       <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
         <div
-          class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" style="width: 100%;"
+          class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"
+          style="width: 100%"
         >
           <div class="my-3 py-3">
             <h2 class="display-5">Park Jonggun</h2>
@@ -118,11 +142,12 @@
           </div>
           <div
             class="card1 bg-light shadow-sm mx-auto"
-            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0; height: 100vh;"
+            style="height: 300px; border-radius: 21px 21px 0 0; height: 100vh"
           ></div>
         </div>
         <div
-          class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="width: 100%;"
+          class="bg-body-secondary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+          style="width: 100%"
         >
           <div class="my-3 p-3">
             <h2 class="display-5">Kim Joongoo</h2>
@@ -130,14 +155,15 @@
           </div>
           <div
             class="card2 bg-dark shadow-sm mx-auto"
-            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0; height: 100vh;"
+            style="height: 300px; border-radius: 21px 21px 0 0; height: 100vh"
           ></div>
         </div>
       </div>
 
       <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
         <div
-          class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" style="width: 100%;"
+          class="bg-body-secondary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden"
+          style="width: 100%"
         >
           <div class="my-3 p-3">
             <h2 class="display-5">Lee Jihun</h2>
@@ -145,11 +171,12 @@
           </div>
           <div
             class="card3 bg-dark shadow-sm mx-auto"
-            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0; height: 100vh;"
+            style="height: 300px; border-radius: 21px 21px 0 0; height: 100vh"
           ></div>
         </div>
         <div
-          class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" style="width: 100%;"
+          class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden"
+          style="width: 100%"
         >
           <div class="my-3 py-3">
             <h2 class="display-5">Park Huyungseok</h2>
@@ -157,26 +184,83 @@
           </div>
           <div
             class="card4 bg-light shadow-sm mx-auto"
-            style="width: 80%; height: 300px; border-radius: 21px 21px 0 0; height: 100vh;"
+            style="height: 300px; border-radius: 21px 21px 0 0; height: 100vh"
           ></div>
         </div>
       </div>
     </main>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
+    <footer
+      class="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-4 my-4 border-top text-bg-dark p-3s pl-3"
+    >
+      <div class="col mb-3 d-flex justify-content-center">
+        <img src="/images/logo.png" alt="" class="logo-footer" />
+      </div>
+
+      <div class="col mb-3 footer1">
+        <h5>Character</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-light">Park Jonggun</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-light">Kim Joongoo</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-light">Lee jihun</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-light">Park Huyungseok</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-light">More Character</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col mb-3 footer2">
+        <h5>Status</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-light">Strength</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-light">Speed</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-light">Potential</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-light">Intelligence</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-light">Endurance</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col mb-3 footer3">
+        <h5>Gang</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-light">Ilhae</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-light">Allied</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-light">Big Deal</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-light">Hostel</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-light">God Dog</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

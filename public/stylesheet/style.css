@@ -1,3 +1,7 @@
+.character-dropdown {
+  font-size: 24px;
+}
+
 .custom-background {
   background-image: url("/images/group.jpg");
   margin: 0;
@@ -11,6 +15,7 @@
 
 .card1 {
   background-image: url("/images/Park_Jongun.png");
+  width: 80%;
   margin: 0;
   display: flex;
   align-items: center;
@@ -21,6 +26,7 @@
 
 .card2 {
     background-image: url("/images/Kim_Jungoo.png");
+    width: 80%;
     margin: 0;
     display: flex;
     align-items: center;
@@ -31,6 +37,7 @@
 
 .card3 {
     background-image: url("/images/Lee_Jihoon.png");
+    width: 80%;
     margin: 0;
     display: flex;
     align-items: center;
@@ -41,6 +48,7 @@
 
 .card4 {
     background-image: url("/images/Park_Huyungseok.png");
+    width: 80%;
     margin: 0;
     display: flex;
     align-items: center;
@@ -49,7 +57,47 @@
     background-position: center;
 }
 
-
 .lead {
     font-size: 30px;
+}
+
+footer a.text-body-light {
+  color: #808080; 
+}
+
+
+footer a.text-body-light:hover {
+  color: #C0C0C0; 
+}
+
+.logo-footer {
+  width: 250px;
+  height: 125px;
+  margin: auto;
+  display: block;
+}
+
+.footer1,
+.footer2,
+.footer3 {
+  text-align: left;
+}
+
+/* Responsive */
+@media (max-width: 835px) {
+  .card1,
+  .card2,
+  .card3,
+  .card4 {
+    width: 100%;
+  }
+}
+
+/* Media Query เมื่อขนาดหน้าจอเล็กกว่า 376px */
+@media (max-width: 376px) {
+  .footer1,
+  .footer2,
+  .footer3 {
+      text-align: center;
+  }
 }
