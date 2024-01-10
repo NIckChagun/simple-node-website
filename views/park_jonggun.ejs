@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lookism</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/stylesheet/style.css">
+    <link rel="icon" type="image/png" href="/images/logo.png" />
+
+  </head>
+  <body>
+
+    <nav
+      class="navbar navbar-expand-md bg-dark sticky-top border-bottom"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand d-md-none" href="#">
+          <svg class="bi" width="24" height="24">
+            <use xlink:href="#aperture"></use>
+          </svg>
+          SiKo Website
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvas"
+          aria-controls="offcanvas"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvas"
+          aria-labelledby="offcanvasLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="#offcanvasLabel">SiKo Website</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav flex-grow-1 justify-content-between text-center fs-3"
+            >
+              <!--Hamburger Menu -->
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <svg class="bi" width="24" height="24">
+                    <use xlink:href="#aperture"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Character
+                </a>
+                <ul class="dropdown-menu character-dropdown" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="/park_jonggun">Park Junggun</a></li>
+                  <li><a class="dropdown-item" href="#">Kim Joongoo</a></li>
+                  <li><a class="dropdown-item" href="#">Lee Jihun</a></li>
+                  <li><a class="dropdown-item" href="#">Park Huyungseok</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="/about">More Character</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Status</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/"
+                  ><img src="/images/logo.png" alt=""
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <svg class="bi" width="24" height="24">
+                    <use xlink:href="#cart"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+      <div class="profile1">
+        <img src="/images/profile/Park_Jonggun_profile.jpg" alt="">
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>

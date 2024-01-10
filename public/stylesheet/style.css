@@ -101,3 +101,20 @@ footer a.text-body-light:hover {
       text-align: center;
   }
 }
+
+/* Profile */
+.profile1 {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.profile1 img {
+  object-fit: cover;
+  width: 100%; 
+  height: 100%; 
+}
