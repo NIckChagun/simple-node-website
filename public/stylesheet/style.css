@@ -22,7 +22,35 @@
   justify-content: center;
   background-size: cover;
   background-position: center;
+  transition: background-image 0.4s ease;
 }
+
+.card1.clicked {
+  /* เมื่อมี class clicked ให้เปลี่ยน background-image */
+  transition: background-image 0.4s ease;
+  background-image: url('/images/Park_Jonggun_profile5.jpg');
+}
+
+.card1:hover {
+  transition: background-image 0.4s ease;
+  background-image: url("/images/Park_Jonggun_profile5.jpg");
+}
+
+.card1, 
+.card2,
+.card3,
+.card4 {
+  transition: transform 0.5s ease;
+
+}
+
+/* transfrom-sacle */
+/* .card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover {
+  transform: scale(1.2);
+} */
 
 .card2 {
     background-image: url("/images/Kim_Jungoo.png");
@@ -33,6 +61,11 @@
     justify-content: center;
     background-size: cover;
     background-position: center;
+    transition: background-image 0.4s ease;
+}
+
+.card2:hover {
+  background-image: url("/images/Kim_Jungoo_profile1.jpg");
 }
 
 .card3 {
@@ -44,6 +77,11 @@
     justify-content: center;
     background-size: cover;
     background-position: center;
+    transition: background-image 0.4s ease;
+}
+
+.card3:hover {
+  background-image: url("/images/Lee_Jihoon_profile1.jpg");
 }
 
 .card4 {
@@ -55,6 +93,12 @@
     justify-content: center;
     background-size: cover;
     background-position: center;
+    transition: background-image 0.4s ease;
+
+}
+
+.card4:hover {
+  background-image: url("/images/Park_Huyungseok_profile1.jpg");
 }
 
 .lead {
@@ -118,3 +162,4 @@ footer a.text-body-light:hover {
   width: 100%; 
   height: 100%; 
 }
+
